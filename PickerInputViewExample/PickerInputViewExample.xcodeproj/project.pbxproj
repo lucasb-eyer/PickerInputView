@@ -19,6 +19,7 @@
 		A0C122CF16E5678D00AF10BF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C122CD16E5678D00AF10BF /* MainStoryboard_iPhone.storyboard */; };
 		A0C122D216E5678D00AF10BF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C122D016E5678D00AF10BF /* MainStoryboard_iPad.storyboard */; };
 		A0C122D516E5678D00AF10BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C122D416E5678D00AF10BF /* ViewController.m */; };
+		A0C122DF16E56A2500AF10BF /* PickerInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C122DE16E56A2500AF10BF /* PickerInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		A0C122D116E5678D00AF10BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		A0C122D316E5678D00AF10BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A0C122D416E5678D00AF10BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0C122DD16E56A2500AF10BF /* PickerInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerInputView.h; path = ../../PickerInputView.h; sourceTree = "<group>"; };
+		A0C122DE16E56A2500AF10BF /* PickerInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerInputView.m; path = ../../PickerInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		A0C122BB16E5678C00AF10BF /* PickerInputViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				A0C122DD16E56A2500AF10BF /* PickerInputView.h */,
+				A0C122DE16E56A2500AF10BF /* PickerInputView.m */,
 				A0C122C416E5678C00AF10BF /* AppDelegate.h */,
 				A0C122C516E5678C00AF10BF /* AppDelegate.m */,
 				A0C122CD16E5678D00AF10BF /* MainStoryboard_iPhone.storyboard */,
@@ -180,6 +185,7 @@
 				A0C122C216E5678C00AF10BF /* main.m in Sources */,
 				A0C122C616E5678C00AF10BF /* AppDelegate.m in Sources */,
 				A0C122D516E5678D00AF10BF /* ViewController.m in Sources */,
+				A0C122DF16E56A2500AF10BF /* PickerInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

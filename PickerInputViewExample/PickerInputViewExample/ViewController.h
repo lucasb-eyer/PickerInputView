@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "PickerInputView.h"
+
 @interface ViewController : UIViewController
+
+- (void)locationSelected:(NSString*) location;
+- (void)dishSelected:(NSString*) dish;
+- (void)dishCancelled;
 
 @end
