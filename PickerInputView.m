@@ -37,10 +37,10 @@
 @synthesize data;
 @synthesize parent;
 
-- (id)initWithData:(NSArray *)data andDoneTarget:(id)obj andAction:(SEL)onDone
+- (id)initWithData:(NSArray *)thedata andDoneTarget:(id)obj andAction:(SEL)onDone
 {
     if (self = [super init]) {
-        self.data = data;
+        self.data = thedata;
         self->_target = obj;
         self->_onDone = onDone;
         self->_onCancel = nil;
@@ -95,6 +95,7 @@
     [self->_target performSelector:self->_onDone withObject:[self.data objectAtIndex:row]];
 #pragma clang diagnostic pop
 
+    parent.text = [self.data objectAtIndex:row];
     [parent resignFirstResponder];
 }
 
